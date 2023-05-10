@@ -21,11 +21,14 @@
     }
   
     function handleNumberClick(num) {
-        inputValue = `${inputValue}${num}`;
+      inputValue += num;
     }
   
     function handleOperatorClick(operator) {
       currentOperator = operator;
+      if (inputValue !== '') {
+        handleEqualClick();
+      }
     }
   
     function handleEqualClick() {
@@ -54,6 +57,7 @@
   </script>
   
   <div>
+    <input type="text" bind:value={inputValue} disabled>
     <input type="text" bind:value={result} disabled>
   
     <div>
@@ -84,4 +88,3 @@
       <button on:click={() => handleOperatorClick('/')}>/</button>
     </div>
   </div>
-  
