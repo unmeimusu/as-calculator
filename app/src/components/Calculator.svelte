@@ -84,3 +84,7 @@
     <button on:click={() => handleOperatorClick('/')}>/</button>
   </div>
 </div>
+
+<div>
+  
+</div>
