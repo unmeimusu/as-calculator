@@ -1,14 +1,15 @@
 <style>
 .calculator {
-  width: 300px;
+  width: 270px;
   margin: 0 auto;
-  padding: 20px;
+  padding: 30px;
   border: 2px solid #ccc;
   border-radius: 5px;
+  position: absolute;
 }
 
 .display {
-  width: 100%;
+  width: 240px;
   height: 50px;
   margin-bottom: 20px;
   font-size: 24px;
@@ -17,6 +18,7 @@
   border: none;
   border-radius: 5px;
   background-color: #f5f5f5;
+  position: relative;
 }
 
 button {

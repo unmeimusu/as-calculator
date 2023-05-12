@@ -9,10 +9,15 @@ import Calc2 from "../components/Calculator2.svelte";
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<meta name="viewport" content="width=device-width" />
 		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
+		<title>AS Calculator</title>
+		<style>
+			body {
+				padding: 0px;
+				margin: 0px;
+			}
+		</style>
 	</head>
 	<body>
-		<h1>Calculator</h1>
 		<!--<Calc client:load/>-->
 		<Calc2 client:load/>
 	</body>
