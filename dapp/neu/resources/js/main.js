@@ -5,3 +5,5 @@ await Neutralino.window.setSize({
 });
 
 await Neutralino.window.setTitle('AS Calculator');
+    
+Neutralino.init()
