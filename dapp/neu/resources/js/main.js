@@ -14,4 +14,4 @@ let settings = async () => {
 }
 
 Neutralino.init()
-Neutralino.events.on('ready',settings())
+Neutralino.events.on('ready',settings)
