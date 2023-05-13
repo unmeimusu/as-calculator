@@ -32,20 +32,20 @@
   },
   "modes": {
     "window": {
-      "title": "neu",
-      "width": 800,
-      "height": 500,
-      "minWidth": 400,
-      "minHeight": 200,
+      "title": "AS Calculator",
+      "width": 334,
+      "height": 444,
+      "minWidth": 334,
+      "minHeight": 444,
       "fullScreen": false,
-      "alwaysOnTop": false,
-      "icon": "/resources/icons/appIcon.png",
+      "alwaysOnTop": true,
+      "icon": "./resources/icons/appIcon.png",
       "enableInspector": true,
       "borderless": false,
       "maximize": false,
       "hidden": false,
-      "resizable": true,
-      "exitProcessOnClose": false
+      "resizable": false,
+      "exitProcessOnClose": true
     },
     "browser": {
       "globalVariables": {
